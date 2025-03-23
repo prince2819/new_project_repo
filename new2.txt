@@ -1,0 +1,85 @@
+https://docs.google.com/document/d/129MI7GU5Ni3_Pmz7Emfr61SuFlW-j5cTWbGBkiBAOEs/edit?pli=1&tab=t.0
+create table personal(PersonalID int,FirstName varchar(255),LastName varchar(255));
+insert into personal(PersonalID,FirstName,LastName) Values (2,'TestFirst','TestLast'),(3,'TestiFirst','TestiLast'),(4,'TestjFirst','TestjLast'),(5,'TestkFirst','TestkLast');
+
+create table testing (s no int ,subject varchar(255) ,phase int);
+
+CREATE TABLE testing (
+    sno INT,
+    subject VARCHAR(255),
+    phase INT
+);
+
+insert into testing(sno,subject,phase) Values (2,'TestFirst','TestLast'),(3,'TestiFirst','TestiLast'),(4,'TestjFirst','TestjLast'),(5,'TestkFirst','TestkLast');
+
+
+Microsoft Windows [Version 10.0.26100.3194]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\prince kumar\Desktop\git practice>git init
+Initialized empty Git repository in C:/Users/prince kumar/Desktop/git practice/.git/
+
+C:\Users\prince kumar\Desktop\git practice>git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+C:\Users\prince kumar\Desktop\git practice>git add .
+
+C:\Users\prince kumar\Desktop\git practice>git commit -m "first commit"
+[master (root-commit) 8326424] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 th.jpg
+
+C:\Users\prince kumar\Desktop\git practice>git branch -M master
+
+C:\Users\prince kumar\Desktop\git practice>git remote add origin https://github.com/prince2819/new_project_repo.git
+
+C:\Users\prince kumar\Desktop\git practice>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\prince kumar\Desktop\git practice>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 9.25 KiB | 3.08 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/prince2819/new_project_repo.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\prince kumar\Desktop\git practice>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------
+
+Access to C:\Users\USERNAME\AppData\Local\Atlassian\SourceTree
+
+Find the file passwd
+
+Right click on that file and open with Notepad
+
+You will see a list of username and password like:
+
+username@dev.azure.com AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMUOX3Q56PEuXEBSDFAFAASEH...
+
+ 
+
+Find the username and password you entered incorrectly, and delete it
+
+Save the file, and close it
+
+SourceTree will ask you again for your username and password on the next push or fetch
